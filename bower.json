@@ -8,7 +8,7 @@
   ],
   "description": "A helper to enable TinyMCE support when using JQuery Dirty Forms.",
   "keywords": [
-	"tinymce",
+    "tinymce",
     "dirty",
     "forms",
     "HTML",
@@ -26,10 +26,10 @@
     "node_modules",
     "bower_components",
     "*.json",
-	".git"
+    ".git"
   ],
   "dependencies": {
     "jquery.dirtyforms": ">=1.0.0",
-	"tinymce": ">=4.0.0"
+    "tinymce": ">=4.0.0"
   }
 }
