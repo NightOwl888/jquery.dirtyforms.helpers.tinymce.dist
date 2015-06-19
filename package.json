@@ -4,7 +4,8 @@
   "description": "A helper to enable TinyMCE support when using JQuery Dirty Forms.",
   "main": "jquery.dirtyforms.helpers.tinymce.min.js",
   "files": [
-	"jquery.dirtyforms.helpers.tinymce.*"
+	"jquery.dirtyforms.helpers.tinymce.*",
+	"LICENSE*"
   ],
   "dependencies": {
     "jquery.dirtyforms": ">=1.0.0",

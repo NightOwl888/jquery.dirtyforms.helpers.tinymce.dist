@@ -26,8 +26,7 @@
     "node_modules",
     "bower_components",
     "*.json",
-	".git",
-    "README.md"
+	".git"
   ],
   "dependencies": {
     "jquery.dirtyforms": ">=1.0.0",
