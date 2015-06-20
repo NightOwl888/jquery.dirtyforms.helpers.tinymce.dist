@@ -52,6 +52,7 @@ The TinyMCE helper is even available through [NPM](http://npmjs.org), [Bower](ht
 
 [![NPM version](https://badge.fury.io/js/jquery.dirtyforms.helpers.tinymce.svg)](http://www.npmjs.org/package/jquery.dirtyforms.helpers.tinymce)
 [![Bower version](https://badge.fury.io/bo/jquery.dirtyforms.helpers.tinymce.svg)](http://bower.io/search/?q=jquery.dirtyforms.helpers.tinymce)
+[![NuGet version](https://badge.fury.io/nu/jquery.dirtyforms.helpers.tinymce.svg)](https://www.nuget.org/packages/jquery.dirtyforms.helpers.tinymce/)
 
 [![NPM](https://nodei.co/npm/jquery.dirtyforms.helpers.tinymce.png?compact=true)](https://nodei.co/npm/jquery.dirtyforms.helpers.tinymce/)
 ```
