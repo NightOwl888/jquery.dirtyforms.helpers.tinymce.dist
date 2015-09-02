@@ -15,13 +15,13 @@ This helper causes Dirty Forms to read and/or update the dirty status from TinyM
 Prerequesites must be included in this order:
 
 - [jQuery](http://jquery.com) (>= 1.4.2)
-- [jquery.dirtyforms](https://github.com/snikch/jquery.dirtyforms)
 - tinymce
 - jquery.tinymce
+- [jquery.dirtyforms](https://github.com/snikch/jquery.dirtyforms) (>= 1.0.0)
 
 Both of the TinyMCE files are included in the [TinyMCE jQuery package](http://www.tinymce.com/download/download.php).
 
-**Note:** There are [known compatibility issues](http://bugs.jquery.com/ticket/11527) between jQuery 1.7.2 and higher and TinyMCE versions lower than 3.5b3. These issues can cause the dialog continue function to fail in dirtyForms.
+**Note:** There are [known compatibility issues](http://bugs.jquery.com/ticket/11527) between jQuery 1.7.2 and higher and TinyMCE versions lower than 3.5b3. These issues can cause the dialog proceed function to fail in dirtyForms.
 
 > If you are using a [Package Manager](#package-managers), these dependencies will be installed automatically, but depending on your environment you may still need to add references to them manually.
 
@@ -31,12 +31,12 @@ There are several different ways to get the code. Some examples below:
 #### CDN
 The TinyMCE helper is available over jsDelivr CDN and can directly included to every page.
 ```HTML
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00003/jquery.dirtyforms.helpers.tinymce.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00004/jquery.dirtyforms.helpers.tinymce.min.js"></script>
 ```
 
-jsDelivr also supports [on-the-fly concatenation of files](https://github.com/jsdelivr/jsdelivr#load-multiple-files-with-single-http-request), so you can reference only 1 URL to get jQuery, jquery.facebox, TinyMCE, the jQuery TinyMCE plugin, jquery.dirtyforms, and jquery.dirtyforms.helpers.tinymce in one request.
+jsDelivr also supports [on-the-fly concatenation of files](https://github.com/jsdelivr/jsdelivr#load-multiple-files-with-single-http-request), so you can reference only 1 URL to get jQuery, TinyMCE, the jQuery TinyMCE plugin, jquery.dirtyforms, and jquery.dirtyforms.helpers.tinymce in one request.
 ```HTML
-<script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@1.11.3,tinymce(tinymce.min.js+jquery.tinymce.min.js),jquery.facebox,jquery.dirtyforms@2.0.0-beta00003(jquery.dirtyforms.min.js+jquery.dirtyforms.helpers.tinymce.min.js)"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@1.11.3,tinymce(tinymce.min.js+jquery.tinymce.min.js),jquery.dirtyforms@2.0.0-beta00004(jquery.dirtyforms.min.js+jquery.dirtyforms.helpers.tinymce.min.js)"></script>
 ```
 
 #### Self-Hosted
@@ -73,7 +73,7 @@ A [SourceMap](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-
 #### CDN
 
 ```HTML
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00003/jquery.dirtyforms.helpers.tinymce.min.js.map"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00004/jquery.dirtyforms.helpers.tinymce.min.js.map"></script>
 ```
 
 #### Package Managers
@@ -92,8 +92,8 @@ This helper is completely automatic - there are no properties or methods to inte
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
 <script src="//cdn.jsdelivr.net/tinymce/latest/tinymce.min.js" type="text/javascript"></script>
 <script src="//cdn.jsdelivr.net/tinymce/latest/jquery.tinymce.min.js" type="text/javascript"></script>
-<script src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00003/jquery.dirtyforms.min.js" type="text/javascript"></script>
-<script src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00003/jquery.dirtyforms.helpers.tinymce.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00004/jquery.dirtyforms.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0-beta00004/jquery.dirtyforms.helpers.tinymce.min.js" type="text/javascript"></script>
 ```
 
 > If not using a CDN, you need to apply the dependencies in the same order as in the example above.
